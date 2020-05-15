@@ -6,6 +6,10 @@
 
 Using collaborative filtering to predict ratings of unread books on 'Goodreads'
 
+The link to my blog published on TowardsDataScience detailing this project:-
+
+https://towardsdatascience.com/building-a-recommendation-engine-to-recommend-books-in-spark-f09334d47d67?source=friends_link&sk=eb4e1f7c48660004224ccea0e6e8d19f
+
 Warren Buffett was once asked about the key to success, he pointed to a stack of nearby books and said, "Read 500 pages like this every day. That's how knowledge works. It builds up, like compound interest. All of you can do it, but I guarantee not many of you will do it."
 Books are the best resources for most of us to develop and gain perspectives. 
 
