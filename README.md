@@ -25,7 +25,7 @@ Most of the matrix factorization techniques like Singular Value decomposition do
 
 Recent methods like Alternating Least square don't suffer from these fallbacks. They suggest modeling directly the observed ratings while avoiding overfitting through a regularized mode.
 
-#Dataset Details:
+##Dataset Details:
 
 **1 million ratings rated by around 100,000 unique users**
 **Rating lies from 0 to 5**
