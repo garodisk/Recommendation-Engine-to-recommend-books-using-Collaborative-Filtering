@@ -1,6 +1,6 @@
 # Goodreads-recommendation-engine
 
-%md
+
 
 ## Building a recommendation engine to recommend books in Spark
 
@@ -23,4 +23,11 @@ Collaborative filtering can be easily achieved by matrix factorization technique
 
 Most of the matrix factorization techniques like Singular Value decomposition don't know how to deal with an incomplete/sparse matrix which means having empty values in the user-rating matrix(which is common as not every user would have read all the books). Traditionally, engineers have been imputing those values with the mean or median before performing matrix factorization to do collaborative filtering. This leads to overfitting since the books that have never been rated are being imputed by the mean or median which can skew the results towards them.
 
-Recent methods like Alternating Least square don't suffer from these fallbacks. They suggest modeling directly the observed ratings while avoiding overfitting through a regularized mode
+Recent methods like Alternating Least square don't suffer from these fallbacks. They suggest modeling directly the observed ratings while avoiding overfitting through a regularized mode.
+
+Dataset Details:
+
+**1 million ratings rated by around 100,000 unique users**
+**Rating lies from 0 to 5**
+
+**Received RMSE score of approximately .9 using ALS**
